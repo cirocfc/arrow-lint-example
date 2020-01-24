@@ -1,0 +1,39 @@
+{
+  "name": "@example/package",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production vue-cli-service build",
+    "lint": "eslint . --cache --cache-location ./node_modules/.cache/ --ignore-path .gitignore --ext .js,.vue"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@babel/runtime-corejs3": "^7.8.3",
+    "@getify/eslint-plugin-proper-arrows": "^8.0.1",
+    "@vue/babel-preset-app": "^4.1.2",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.2",
+    "@vue/cli-plugin-router": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge.0"
+  }
+}
