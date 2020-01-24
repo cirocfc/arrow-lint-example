@@ -1,0 +1,12 @@
+.cache
+.DS_Store
+.idea
+.vscode
+*.iml
+*.js.map
+*.log
+coverage
+dist
+logs
+node_modules
+package-lock.json
